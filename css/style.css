@@ -8,6 +8,10 @@ body{
 .page-header{
 	margin-top: 4rem;
 }
+.navbar {
+	background-color: #F3F6FA;
+}
+
 
 .nav-item{
 	padding-left: 44px;
