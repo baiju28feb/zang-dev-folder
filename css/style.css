@@ -12,19 +12,38 @@ body{
 	background-color: #F3F6FA;
 }
 
+.navbar-brand{
+	margin-left: 8%;
+}
+
+.content{
+	margin-right: 12%;
+	position: absolute;
+	right: 0;
+	left: auto;
+}
 
 .nav-item{
 	padding-left: 44px;
 
 }
 .row {
-	display: flex;
+	margin-left: 8%;
+	margin-right: 8%;
 }
-.column {
-	display: flex;
-	flex-direction: column;
 
+.row-items{
+	justify-content: right;
+	align-items: center;
+	align-content: center;
 }
+
+.column-item{
+	align-items: center;
+}
+
+
+
 .mainvalueprop{
 	
 	width: 528px;
@@ -74,12 +93,16 @@ body{
 	right: 740px;
 	top: 519px;
 	bottom: 339px;
+	height: 42px;
 
 	background: #E3E3E3;
 	border-radius: 4px;
 	margin-top: 40px;
 	margin-bottom: 20px;
 }
+
+}
+
 .form-control {
 	left: 172px;
 	right: 740px;
@@ -90,6 +113,7 @@ body{
 	border-radius: 4px;
 	border: none;
 }
+
 
 .btn{
 	background: #1A1A1A;
@@ -110,7 +134,7 @@ body{
 	color: #FFFFFF;
 }
 .clock{
-
+	align-content: center;
 	width: 424px;
 	height: 424px;
 	
