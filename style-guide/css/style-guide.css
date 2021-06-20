@@ -1,0 +1,176 @@
+:is(h1, h2, h3, h4, h5, h6) {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 20px;   
+  }
+p {
+      font-family: 'Comfortaa';
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 28px;
+  }
+h1 { font-size: 48px;}
+h2 { font-size: 32px;}
+h3 { font-size: 24px;}
+
+.caption-1 {
+      font-family: 'Comfortaa';
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 16px;
+  }
+
+  /* Sticky class */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+  }
+  
+/* Stick Content Management */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+/* Nav bar elements of all kinds */
+.nav-logo {
+    height: 32px;
+    margin: 12px;
+}
+
+.nav-link {
+    padding: 12px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+/* Header and it's components */
+.style-guide-header {
+    background-color: #3C64B1;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 64px;
+}
+
+.style-guide-header h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+
+/* Sections and their configurations */
+
+/* home section */
+.home-section {
+    width: 100% auto;
+    height: 70vh;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.home-section-content {
+    margin: auto;
+    font-family: 'Comfortaa';
+}
+.home-section-content h1 {
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+/* colors section */
+.color-section {
+    padding: 80px;
+    background-color: #ececec;
+    font-family: 'Comfortaa';
+    font-weight: 700;
+}
+.color-card {
+    height: auto;
+    margin-right: 40px;
+}
+.color-block {
+    width: 100% auto;
+    height: 120px;
+    margin-bottom: 12px;
+}
+
+.black  {
+    background-color: #1a1a1a;
+}
+.white-f9 {
+    background-color: #f9f9f9;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1a1a1a;
+}
+.blue-1 {
+    background-color: #2D8BBA;
+}
+.blue-2 {
+    background-color: #3C64B1;
+}
+.color-wrapper-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Typography */
+.typography-section {
+    padding: 80px;
+}
+.typography-section-content {
+    display: flex;
+    flex-direction: column;
+}
+.table {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Buttons */
+.button-section {
+    padding: 80px;
+    background-color: #ececec;
+}
+.button-demo-container {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.button-images-group {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.btn-primary {
+    background-color: #1a1a1a;
+    border-color: transparent;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #333333;
+    border-color: #285e8e; /*set the color you want here*/
+}
+.btn-outline-secondary {
+    border-color: #1a1a1a;
+    color: #1a1a1a;
+}
+.btn-outline-secondary:hover {
+    background-color: #CACACA;
+    color: #1a1a1a;
+}
+.btn-link {
+    color: #1a1a1a;
+}
+.btn-link:hover {
+    color: #1a1a1a6c;
+}
+
+/* Icons */
+.icons-section {
+    padding: 80px;
+}
