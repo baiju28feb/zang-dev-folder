@@ -13,16 +13,16 @@
             <ul class="nav-bar" id="nav-list">
                 <li class="logo-li"><img class="logo" src="images/zang-logo-light.png" alt="logo"></li>
                 <div class="main-nav">
-                    <a href="#"><li class="Active">Home</li></a>
-                    <a href="#"><li>Slack</li></a>
-                    <a href="#"><li>G-Calendar</li></a>
-                    <a href="#"><li>M-teams</li></a>
-                    <a href="#"><li>G-Meet</li></a>
-                    <a href="#"><li>Zoom</li></a>
+                    <a  href="#" onclick="togglenavbarActive(this)" class="nav-link Active" id="nav-link-home"><li>Home</li></a>
+                    <a href="#" onclick="togglenavbarActive(this)" class="nav-link"><li >Slack</li></a>
+                    <a  class="nav-link" onclick="togglenavbarActive(this)" href="#"><li>G-Calendar</li></a>
+                    <a  class="nav-link" onclick="togglenavbarActive(this)" href="#"><li>M-teams</li></a>
+                    <a  class="nav-link" onclick="togglenavbarActive(this)" href="#"><li>G-Meet</li></a>
+                    <a  class="nav-link" onclick="togglenavbarActive(this)" href="#"><li>Zoom</li></a>
                 </div>
                 <div class="sub-nav">
-                    <a href="#"><li>Settings</li></a>
-                    <a href="#"><li>Logout</li></a>
+                    <a href="#" onclick="togglenavbarActive(this)" class="nav-link"><li>Settings</li></a>
+                    <a href="#" onclick="togglenavbarActive(this)" class="nav-link"><li>Logout</li></a>
                 </div>    
             </ul>
         </nav>
