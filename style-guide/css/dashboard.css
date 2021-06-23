@@ -90,13 +90,33 @@ width: 100%;
     position: relative;
 }
 
+.icon-message {
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-right: 350px;
+    margin-top: -100px;
+}
+.icon-bell{
+    float: right;
+    margin-right: 250px;
+    margin-top: -100px;
+}
+.icon-user{
+    float: right;
+    margin-right: 150px;
+    margin-top: -100px;
+    color: cornflowerblue;
+}
+
 #main-headding{
     height: 20px;
     padding: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
     margin-top: 0px;
-
+    width: 50%;
+    display: flex;
 }
 .main-para{
     font-size: 20px;
@@ -150,7 +170,32 @@ thead , th{
     padding-bottom: 5px;
     border-bottom: 2px solid black;
 }
+.prod
+{
+    padding-top:20px;
+    padding-left: 20px;
+}
+.reminds
+{
+    padding-top:20px;
+    padding-left: 20px;
+}
 
+.card-listitems{
+    width: 100%;
+    padding: 20px;
+}
+
+.card-listitems::after{
+    float: right;
+    content: "x";
+    margin-right: 100px;
+}
+
+.card-para{
+    text-align: center;
+    font-size: 20px;
+}
 
 /*Flexbox 1 END*/
 
